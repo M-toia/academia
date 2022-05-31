@@ -1,0 +1,138 @@
+.formulario{
+    width: 480px;
+    padding: 10px;
+    margin-left: 10px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 470;
+    font-size: 1.5em;
+}
+.field{
+    width: 450px;
+    margin: 15px 0;
+    text-align: left;
+    font-family: helvetica;
+}
+.field label, 
+.field span{
+    padding-left:0 px;
+    font-size: 1.1em;
+    display: block;
+    width: 470px;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 1px;
+    text-align: center;
+    border-radius: 10px;
+}
+#botao[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    
+    margin-left: 1px;
+    text-align: center;
+    border-radius: 15px;
+    background-position: left;
+}
+.field1{
+    width: 100px;
+    margin: 5px 0;
+    text-align: left;
+    font-family: helvetica;
+}
+.field1 label, 
+.field1 span{
+    padding-left:0 px;
+    font-size: 1.1em;
+    display: block;
+    width: 470px;
+}
+.es{
+    float: right;
+    padding-right: 30px;
+    width: 100px;
+    margin: 5px 0;
+    text-align: left;
+    font-family: helvetica; 
+    
+}
+.es1{
+    padding-left: 350px;
+    float:center;
+    width: 100px;
+    margin: 5px 0;
+    text-align: left;
+    font-family: helvetica; 
+}
+
+#botao1[type=submit]{
+    display: block;
+    background-color:lightgreen;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 130px;
+    /*margin: 0 auto;*/
+    margin-left: 1px;
+    text-align: center;
+    border-radius: 15px;
+    background-position: left;
+}
+#botao2[type=submit]{
+    display: block;
+    background-color:indianred;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 130px;
+    /*margin: 0 auto;*/
+    margin-left: 1px;
+    text-align: center;
+    border-radius: 15px;
+    background-position: left;
+}
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css\estilo.css">
+	<link rel="stylesheet" type="text/css" href="css\estilo2.css">
+	<title>Cacadstro de Alunos</title>
+</head>
+<body>
+	<div class="corpo">
+		<header>
+			<div class="logo"> <img src="img\logo2.png" style="width: 200px; height: 147px;"></div>
+			<div class="logo2"><img src="img\academia.png" style="width: 600px; height: 200px;"></div>
+			<div class="logo"> <img src="img\logo2.png" style="width: 200px; height: 147px;"></div>
+
+		</header>
+		<section class="sec1"></section>
+		<section class="centro11">
+			<nav id="menu-site">
+                <ul >
+                    <li><a href="index.html">Cadastro de funcionário</a></li>
+                </ul>
+            </nav>
+            <div class="caixa">
+            	<form class="formulario" method="post"> 
+			        <div class="field">
+			            <label for="nome">Nome:</label>
+			            <input type="text" id="nome" name="nome" placeholder="Nome do funcionário *" required>
+			        </div>
+			        
+			        <div class="field">
+			            <label for="endereco">Endereço:</label>
+			            <input type="text" id="endereço" name="endereço" placeholder="Rua, n°, bairro *" required>
+			        </div>
+
+			        <div class="field">
+			            <label for="telefone">Telefone:</label>
+			            <input type="text" id="telefone" name="telefone" placeholder="Telefone *" required>
+			       
+			            <label for="mensagem">Permissões de acesso:</label>
+			            <div class="form-check">
+			            	
+						  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+						  Cadastro de alunos
+						  <label class="form-check-label" for="flexCheckDefault">
+						  </label>
+						</div>
+						  <div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+						  Controle do caixa
+						  <label class="form-check-label" for="flexCheckDefault">
+						    
+						  </label>
+						</div>
+						<div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+						  Receber pagamentos 
+						  <label class="form-check-label" for="flexCheckChecked">
+						  </label>
+						  <div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+						  Emitir nota fiscal/recibo
+						  <label class="form-check-label" for="flexCheckChecked">
+						  </label>
+						</div>
+			            <form>
+						  <div class="row mb-3">
+						    <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+						    <div class="col-sm-10">
+						      <input type="password" class="form-control" id="inputPassword3">
+						    </div>
+					    <br>
+					    <br>
+
+			        <input type="submit" name="acao" value="Cadastrar">
+			    </form>
+            </div>
+        </section>
+		<section class="centro21">
+			<img src="img\titanss.png" style="width: 470px; height: 450px;">
+		</section>
+	</div>
+</body>
+</html>
